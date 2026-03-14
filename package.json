@@ -157,5 +157,8 @@
       "release-it"
     ],
     "version": "0.57.2"
+  },
+  "dependencies": {
+    "socket.io-client": "^4.8.3"
   }
 }
