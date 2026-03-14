@@ -7,7 +7,9 @@ import { LogsTable } from '../components/logsTable/component';
 import { Sidebar } from '../components/sidebar/component';
 
 export default function Dashboard() {
-  const [selectedApiLog, setSelectedApiLog] = useState<NetworkLog | null>(null);
+  const [selectedApiLog, setSelectedApiLog] = useState<NetworkLog | undefined>(
+    undefined
+  );
 
   return (
     <div className="bg-[#33313B] h-screen p-4 font-sans box-border overflow-hidden flex flex-col relative">
@@ -25,7 +27,7 @@ export default function Dashboard() {
       {selectedApiLog && (
         <div
           className="fixed inset-0 z-[1000] bg-black/40 backdrop-blur-sm"
-          onClick={() => setSelectedApiLog(null)}
+          onClick={() => setSelectedApiLog(undefined)}
         >
           <div
             className="absolute top-0 right-0 h-full w-full max-w-2xl bg-slate-900 shadow-2xl"
@@ -33,7 +35,7 @@ export default function Dashboard() {
           >
             <Sidebar
               apilog={selectedApiLog}
-              onClose={() => setSelectedApiLog(null)}
+              onClose={() => setSelectedApiLog(undefined)}
             />
           </div>
         </div>

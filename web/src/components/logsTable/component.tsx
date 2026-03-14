@@ -157,11 +157,13 @@ export const LogsTable = (props: LogsTableProps) => {
           </div>
         )}
       </TableContainer>
-      <TableRowContextMenu
-        log={contextLog}
-        menuPosition={menuPosition}
-        close={() => setMenuPosition(null)}
-      />
+      {contextLog ? (
+        <TableRowContextMenu
+          log={contextLog}
+          menuPosition={menuPosition}
+          close={() => setMenuPosition(undefined)}
+        />
+      ) : null}
     </React.Fragment>
   );
 };
