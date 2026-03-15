@@ -1,4 +1,4 @@
-import type { NetworkLog } from '../core';
+import type { NetworkLog } from '../../core';
 
 const readBlobAsText = (blob: Blob): Promise<string> => {
   return new Promise((resolve, reject) => {

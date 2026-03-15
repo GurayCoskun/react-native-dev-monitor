@@ -1,4 +1,4 @@
-import type { NetworkLog } from '../../core';
+import type { NetworkLog } from '../../../core';
 
 type Listener = (logs: NetworkLog[]) => void;
 

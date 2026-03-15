@@ -1,5 +1,5 @@
 import { Platform } from 'react-native';
-import io from 'socket.io-client';
+import { io, type Socket } from 'socket.io-client';
 
 const getSocketUrl = () => {
   if (Platform.OS === 'android') {
@@ -8,7 +8,7 @@ const getSocketUrl = () => {
   return 'http://localhost:3001';
 };
 
-const socket = io(getSocketUrl(), {
+const socket: Socket = io(getSocketUrl(), {
   transports: ['websocket'],
   autoConnect: true,
 });

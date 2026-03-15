@@ -1,9 +1,9 @@
-import * as React from 'react';
 import { BackHandler, Modal, StyleSheet, Text, View } from 'react-native';
 import { Button } from './components/button/component';
 import { LogDetail } from './components/logDetail/component';
 import { LogList } from './components/logList/component';
 import { useDevMonitorLogs } from './utils/hooks';
+import { useEffect, useState } from 'react';
 
 type DevMonitorOverlayProps = {
   mode?: 'fullscreen' | 'mini';
@@ -14,9 +14,9 @@ export const DevMonitorOverlay = (props: DevMonitorOverlayProps) => {
 
   const { logs, clearLogs, selectedLog, setSelectedLog } = useDevMonitorLogs();
 
-  const [open, setOpen] = React.useState(mode === 'fullscreen');
+  const [open, setOpen] = useState(mode === 'fullscreen');
 
-  React.useEffect(() => {
+  useEffect(() => {
     const onBack = () => {
       if (selectedLog) {
         setSelectedLog(undefined);

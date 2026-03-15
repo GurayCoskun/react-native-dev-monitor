@@ -1,7 +1,7 @@
-export * from './core';
+export * from '../core';
 export * from './ui';
 
-import type { NetworkLog } from './core';
+import type { NetworkLog } from '../core';
 import { NetworkInterceptor } from './interceptor/networkInterceptor';
 import { sendNetworkLog } from './socket';
 import { upsertLog } from './ui/utils/store';

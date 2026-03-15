@@ -3,7 +3,7 @@ import {
   type FilterCriteria,
   methodOptions,
   statusOptions,
-} from '../../../core';
+} from '../../../../core';
 import {
   Modal,
   Pressable,

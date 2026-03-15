@@ -48,17 +48,10 @@ function App() {
     </View>
   ) : (
     <View style={styles.containerFullScreen}>
-      <View style={styles.footer}>
-        <Button title="Call Fetch Api" onPress={triggerFetch} />
-        <View style={styles.wrapper}>
-          <Button title="Call XHR" onPress={triggerXHR} />
-        </View>
-        <View style={styles.wrapper}>
-          <Button
-            title="Change Mode to Mini"
-            onPress={() => setIsMode('mini')}
-          />
-        </View>
+      <View style={styles.row}>
+        <Button title="Call Fetch" onPress={triggerFetch} />
+        <Button title="Call XHR" onPress={triggerXHR} />
+        <Button title="Change Mode to Mini" onPress={() => setIsMode('mini')} />
       </View>
       <DevMonitorOverlay mode={'fullscreen'} />
     </View>
@@ -73,16 +66,11 @@ const styles = StyleSheet.create({
   },
   containerFullScreen: {
     flex: 1,
+    paddingTop: 60,
   },
-  footer: {
-    position: 'absolute',
-    bottom: 0,
-    zIndex: 999999,
-    height: 200,
-    backgroundColor: 'white',
-    width: '100%',
-    alignItems: 'center',
-    justifyContent: 'center',
+  row: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
   },
   wrapper: {
     marginTop: 8,

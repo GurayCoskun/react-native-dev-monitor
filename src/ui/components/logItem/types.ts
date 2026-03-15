@@ -1,4 +1,4 @@
-import type { NetworkLog } from '../../../core';
+import type { NetworkLog } from '../../../../core';
 
 export type LogItemPropsType = {
   log: NetworkLog;
