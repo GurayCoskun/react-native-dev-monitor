@@ -44,7 +44,7 @@ function App() {
         />
       </View>
 
-      <DevMonitorOverlay mode={'mini'} />
+      <DevMonitorOverlay />
     </View>
   ) : (
     <View style={styles.containerFullScreen}>
