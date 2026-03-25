@@ -88,3 +88,5 @@ nitrogen/
 # --- Web / Dashboard (Next.js) ---
 .next/
 .yarn/
+
+.npmrc

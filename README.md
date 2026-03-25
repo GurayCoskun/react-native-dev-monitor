@@ -36,8 +36,11 @@
 Add the package to your project:
 
 ```bash
-Example
 npm install react-native-dev-monitor
+
+or
+
+yarn add react-native-dev-monitor
 ```
 
 ## 🚀 Quick Start
@@ -46,7 +49,7 @@ npm install react-native-dev-monitor
 Simply import the package at the very top of your application's entry point (e.g., `index.js` or `App.tsx`). The interceptor will start automatically in development mode.
 
 ```bash
-import  'react-native-dev-monitor';
+import 'react-native-dev-monitor';
 ```
 
 **2. Launching the Dashboard**
