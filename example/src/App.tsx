@@ -1,5 +1,3 @@
-import 'react-native-dev-monitor';
-
 import { DevMonitorOverlay } from 'react-native-dev-monitor';
 import { useState } from 'react';
 import { Button, StyleSheet, View } from 'react-native';
@@ -44,7 +42,7 @@ function App() {
         />
       </View>
 
-      <DevMonitorOverlay />
+      <DevMonitorOverlay mode={'mini'} />
     </View>
   ) : (
     <View style={styles.containerFullScreen}>
@@ -53,7 +51,7 @@ function App() {
         <Button title="Call XHR" onPress={triggerXHR} />
         <Button title="Change Mode to Mini" onPress={() => setIsMode('mini')} />
       </View>
-      <DevMonitorOverlay mode={'fullscreen'} />
+      <DevMonitorOverlay />
     </View>
   );
 }

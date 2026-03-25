@@ -7,14 +7,10 @@
 | Dashboard |
 
 <img src="https://raw.githubusercontent.com/GurayCoskun/react-native-dev-monitor/refs/heads/main/.github/images/dashboard-table.png" width="400" alt="Dashboard Table" />
-<img src="https://raw.githubusercontent.com/GurayCoskun/react-native-dev-monitor/refs/heads/main/.github/images/dashboard-detail.png" width="400" alt="Dashboard Detail" />
 
-| In-App Overlay and FullScreen Page |
+| In-App Overlay |
 
-<img src="https://raw.githubusercontent.com/GurayCoskun/react-native-dev-monitor/refs/heads/main/.github/images/mobile-bumble.png" width="175" alt="Mobile Bumble" />
 <img src="https://raw.githubusercontent.com/GurayCoskun/react-native-dev-monitor/refs/heads/main/.github/images/mobile-overlay.png" width="175" alt="Mobile Overlay" />
-<img src="https://raw.githubusercontent.com/GurayCoskun/react-native-dev-monitor/refs/heads/main/.github/images/mobile-fullscreen.png" width="175" alt="Mobile Full Screen" />
-<img src="https://raw.githubusercontent.com/GurayCoskun/react-native-dev-monitor/refs/heads/main/.github/images/mobile-detail.png" width="175" alt="Mobile Log Detail" />
 
 ## ✨ Features
 
@@ -62,8 +58,8 @@ const App = () => {
 			<YourAppContents />
 			{/**
 			 * Display modes:
-			 * - 'mini': A floating bubble (Default)
-			 * - 'fullscreen': A full-page log inspector
+			 * - 'mini': A floating bubble
+			 * - 'fullscreen': A full-page log inspector (Default)
 			 */}
 			<DevMonitorOverlay mode={'mini'}/>
 		</>

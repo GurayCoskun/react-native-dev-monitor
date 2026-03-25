@@ -1,5 +1,5 @@
 import { registerRootComponent } from 'expo';
-
+import 'react-native-dev-monitor';
 import App from './src/App';
 
 // registerRootComponent calls AppRegistry.registerComponent('main', () => App);

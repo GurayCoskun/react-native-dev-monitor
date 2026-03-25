@@ -10,7 +10,7 @@ type DevMonitorOverlayProps = {
 };
 
 export const DevMonitorOverlay = (props: DevMonitorOverlayProps) => {
-  const { mode = 'mini' } = props;
+  const { mode = 'fullscreen' } = props;
 
   const { logs, clearLogs, selectedLog, setSelectedLog } = useDevMonitorLogs();
 

@@ -13,7 +13,9 @@ export default function Home() {
 
   return (
     <div className="bg-[#33313B] h-screen p-4 font-sans box-border overflow-hidden flex flex-col relative">
-      <h1 className="text-2xl font-bold mb-2 text-white">Dev Monitoring</h1>
+      <h1 className="text-2xl font-bold mb-2 text-white">
+        React Native Dev Monitor
+      </h1>
       <Grid
         sx={{ mt: 2, flex: 1, minHeight: 0, overflow: 'hidden' }}
         container

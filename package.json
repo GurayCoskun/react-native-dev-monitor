@@ -1,6 +1,6 @@
 {
   "name": "react-native-dev-monitor",
-  "version": "0.1.6",
+  "version": "1.0.0",
   "description": "A lightweight network traffic inspector for React Native with a web dashboard",
   "main": "./lib/module/index.js",
   "types": "./lib/typescript/src/index.d.ts",
