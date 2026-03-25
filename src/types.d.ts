@@ -1,8 +1,8 @@
-import type { NetworkLog } from '../core';
+import type { NetworkLog } from './core';
 
 declare global {
   interface XMLHttpRequest {
-    _log: NetworkLog;
+    _log?: NetworkLog;
   }
 }
 export {};

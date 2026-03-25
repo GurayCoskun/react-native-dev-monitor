@@ -27,7 +27,6 @@ io.on('connection', (socket) => {
   console.log(`📱 Device/Dashboard Connected: ${socket.id}`);
 
   socket.on(SOCKET_EVENTS.APP_TO_SERVER, (data) => {
-    console.log('Receiving data: ', data.url, data.id);
     socket.broadcast.emit(SOCKET_EVENTS.SERVER_TO_DASHBOARD, data);
   });
 

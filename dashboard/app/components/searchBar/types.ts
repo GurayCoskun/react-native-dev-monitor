@@ -1,4 +1,4 @@
-import { type FilterCriteria } from '../../../../core';
+import { type FilterCriteria } from '../../../../src/core';
 
 export type SearchBarProps = {
   value: string;

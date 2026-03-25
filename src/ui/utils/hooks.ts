@@ -1,4 +1,4 @@
-import type { NetworkLog } from '../../../core';
+import type { NetworkLog } from '../../core';
 import * as React from 'react';
 import { clearLogs, subscribeLogs } from './store';
 

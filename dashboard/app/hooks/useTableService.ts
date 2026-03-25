@@ -1,4 +1,4 @@
-import { type NetworkLog } from '../../../core';
+import { type NetworkLog } from '../../../src/core';
 import { useState } from 'react';
 
 const useTableService = () => {

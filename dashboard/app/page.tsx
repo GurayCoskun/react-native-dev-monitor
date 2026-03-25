@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { Grid } from '@mui/material';
 import { Sidebar } from './components/sidebar/component';
-import { type NetworkLog } from '../../core';
+import { type NetworkLog } from '../../src/core';
 import { LogsTable } from './components/logsTable/component';
 
 export default function Home() {

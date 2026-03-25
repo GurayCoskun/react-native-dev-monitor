@@ -1,7 +1,7 @@
 import { Pressable, View, Text } from 'react-native';
 import type { LogItemPropsType } from './types';
 import { StyleSheet } from 'react-native';
-import { formatDuration, getLogColors } from '../../../../core';
+import { formatDuration, getLogColors } from '../../../core';
 
 export const LogItem = (props: LogItemPropsType) => {
   const { log, onPress } = props;

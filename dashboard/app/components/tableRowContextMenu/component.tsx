@@ -1,4 +1,4 @@
-import { buildCurlCommand, stringifyValue } from '../../../../core';
+import { buildCurlCommand, stringifyValue } from '../../../../src/core';
 import { type TableRowContextMenuType } from './types';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';

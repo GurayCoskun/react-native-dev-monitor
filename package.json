@@ -1,7 +1,7 @@
 {
   "name": "react-native-dev-monitor",
-  "version": "0.1.0",
-  "description": "Dev Tools MonitoringMonitoring ",
+  "version": "0.1.6",
+  "description": "A lightweight network traffic inspector for React Native with a web dashboard",
   "main": "./lib/module/index.js",
   "types": "./lib/typescript/src/index.d.ts",
   "exports": {
@@ -15,6 +15,8 @@
   "files": [
     "src",
     "lib",
+    "dashboard-dist",
+    "bin",
     "android",
     "ios",
     "cpp",
@@ -43,14 +45,29 @@
   },
   "keywords": [
     "react-native",
+    "network-logger",
+    "network-inspector",
+    "debug",
+    "debugger",
+    "http",
+    "intercept",
     "ios",
-    "android"
+    "android",
+    "dashboard",
+    "monitoring",
+    "development-tools",
+    "sniffer",
+    "flipper-alternative"
   ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/GurayCoskun/react-native-dev-monitor.git"
   },
-  "author": "guraycoskun <gry_cskn.98@hotmail.com> (https://github.com/GurayCoskun)",
+  "author": {
+    "name": "Güray Coşkun",
+    "email": "gry_cskn.98@hotmail.com",
+    "url": "https://github.com/GurayCoskun"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/GurayCoskun/react-native-dev-monitor/issues"

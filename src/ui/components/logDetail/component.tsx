@@ -1,11 +1,7 @@
 import { View, Text, ScrollView, StyleSheet } from 'react-native';
 import type { LogDetailPropsType } from './types';
 import { Button } from '../button/component';
-import {
-  formatDuration,
-  getQueryParams,
-  stringifyValue,
-} from '../../../../core';
+import { formatDuration, getQueryParams, stringifyValue } from '../../../core';
 
 export const LogDetail = (props: LogDetailPropsType) => {
   const { log, onPressBack } = props;

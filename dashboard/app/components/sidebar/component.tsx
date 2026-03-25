@@ -5,7 +5,7 @@ import {
   Paper,
 } from '@mui/material';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import { getQueryParams } from '../../../../core';
+import { getQueryParams } from '../../../../src/core';
 import { JsonEditor } from '../jsonEditor/component';
 import { type SidebarProps } from './types';
 

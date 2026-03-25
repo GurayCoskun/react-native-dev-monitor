@@ -17,4 +17,12 @@ socket.on('connect', () => {
   console.log('✅ [DevMonitor] Connected to Dashboard Server');
 });
 
+// Bağlanamadığında veya bağlantı koptuğunda çalışır
+socket.on('connect_error', () => {});
+
+// Bağlantı koptuğunda
+socket.on('disconnect', (reason) => {
+  console.log('⚠️ [DevMonitor] Disconnected:', reason);
+});
+
 export default socket;

@@ -1,5 +1,5 @@
 import React from 'react';
-import { formatDuration, getLogColors } from '../../../../core';
+import { formatDuration, getLogColors } from '../../../../src/core';
 import { HourglassEmpty } from '@mui/icons-material';
 import { TableSortLabel } from '@mui/material';
 import Paper from '@mui/material/Paper';

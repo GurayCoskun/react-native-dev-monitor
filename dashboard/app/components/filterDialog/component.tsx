@@ -2,7 +2,7 @@ import {
   type FilterCriteria,
   methodOptions,
   statusOptions,
-} from '../../../../core';
+} from '../../../../src/core';
 import {
   Box,
   Button,

@@ -2,7 +2,7 @@ import {
   type FilterCriteria,
   type NetworkLog,
   SOCKET_EVENTS,
-} from '../../../core';
+} from '../../../src/core';
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import { io } from 'socket.io-client';
 
@@ -113,9 +113,7 @@ const useApiLogs = () => {
     //     setDeviceInfo(history.deviceInfo);
     //   },
     // );
-    console.log(SOCKET_EVENTS.SERVER_TO_DASHBOARD);
     socket.on(SOCKET_EVENTS.SERVER_TO_DASHBOARD, (data: NetworkLog) => {
-      console.log('data', data);
       setLogs((prev) => {
         const index = prev.findIndex((log) => log.id === data.id);
         if (index === -1) {

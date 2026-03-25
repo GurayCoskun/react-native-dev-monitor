@@ -1,4 +1,4 @@
-import type { FilterCriteria } from '../../../../core';
+import type { FilterCriteria } from '../../../core';
 
 export type FilterDialogPropsType = {
   open: boolean;

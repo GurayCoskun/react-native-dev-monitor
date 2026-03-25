@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { FilterCriteria } from '../../../../core';
+import type { FilterCriteria } from '../../../core';
 import { FlatList, Pressable, StyleSheet, Text, View } from 'react-native';
 import type { LogListPropsType } from './types';
 import { LogItem } from '../logItem/component';
