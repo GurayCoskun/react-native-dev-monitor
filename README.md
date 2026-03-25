@@ -10,9 +10,19 @@
 
 | In-App Overlay |
 
-<img src="https://raw.githubusercontent.com/GurayCoskun/react-native-dev-monitor/refs/heads/main/.github/images/mobile-bumble.png" width="175" alt="Mobile Bumble" />
-<img src="https://raw.githubusercontent.com/GurayCoskun/react-native-dev-monitor/refs/heads/main/.github/images/mobile-overlay.png" width="175" alt="Mobile Overlay" />
-<img src="https://raw.githubusercontent.com/GurayCoskun/react-native-dev-monitor/refs/heads/main/.github/images/log-detail.png" width="175" alt="Log Detail" />
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/GurayCoskun/react-native-dev-monitor/refs/heads/main/.github/images/mobile-bumble.png" width="175" alt="Mobile Bumble" />
+    </td>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/GurayCoskun/react-native-dev-monitor/refs/heads/main/.github/images/mobile-overlay.png" width="175" alt="Mobile Overlay" />
+    </td>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/GurayCoskun/react-native-dev-monitor/refs/heads/main/.github/images/log-detail.png" width="175" alt="Log Detail" />
+    </td>
+  </tr>
+</table>
 
 ## ✨ Features
 
