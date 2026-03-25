@@ -12,8 +12,7 @@
 
 <img src="https://raw.githubusercontent.com/GurayCoskun/react-native-dev-monitor/refs/heads/main/.github/images/mobile-bumble.png" width="175" alt="Mobile Bumble" />
 <img src="https://raw.githubusercontent.com/GurayCoskun/react-native-dev-monitor/refs/heads/main/.github/images/mobile-overlay.png" width="175" alt="Mobile Overlay" />
-<img src="https://raw.githubusercontent.com/GurayCoskun/react-native-dev-monitor/refs/heads/main/.github/images/mobile-fullscreen.png" width="175" alt="Mobile Full Screen" />
-<img src="https://raw.githubusercontent.com/GurayCoskun/react-native-dev-monitor/refs/heads/main/.github/images/mobile-detail.png" width="175" alt="Mobile Log Detail" />
+<img src="https://raw.githubusercontent.com/GurayCoskun/react-native-dev-monitor/refs/heads/main/.github/images/log-detail.png" width="175" alt="Log Detail" />
 
 ## ✨ Features
 
